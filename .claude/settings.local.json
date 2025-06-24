@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill:*)",
+      "Bash(npm start)",
+      "Bash(curl:*)",
+      "Bash(node:*)",
+      "Bash(lsof:*)",
+      "Bash(npm start)",
+      "Bash(true)",
+      "Bash(lsof:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [
+      "Bash(git:*)"
+    ]
+  }
+}
